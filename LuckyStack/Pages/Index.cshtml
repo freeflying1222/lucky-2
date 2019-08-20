@@ -7,12 +7,24 @@
 </head>
 <body>
     <h1>hello, luckystack!</h1>
-    <div style="color:red">
-        <h2>飞哥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;真帅</h2>
-        <p></p>
+    <span>
+        重庆今天好热！
+    </span>
+    <span>
+        希望明天下雨。
+    </span>
 
-    </div>
-   
+    <form method="post">
+        <label>用户名：</label> <input type="text" name="username" /><br />
+        <label>密码：</label><input type="password" name="password" /><br />
+        <label>性别：</label>
+        <input type="radio" name="gender" value="male" /> 男
+        <input type="radio" name="gender" value="female" />女 <br />
+        <label>记住我：</label><input type="checkbox" value="true" /><br />
+        <input type="submit" value="提交" />
+    </form>
+
+
     <!-- 这段代码是后门，小心 -->
     <a href="/Log/On">
         <!-- <img src="/images/banner1.svg" title="我是title" alt="我是alt" />-->
@@ -27,7 +39,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="2" >row 1, cell 1</td>
+                <td rowspan="2">row 1, cell 1</td>
                 <td>row 1, cell 2</td>
             </tr>
             <tr>
