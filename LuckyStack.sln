@@ -3,13 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyStack", "LuckyStack\LuckyStack.csproj", "{4469A417-2DDD-491A-9815-231B90B6FA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuckyStack", "LuckyStack\LuckyStack.csproj", "{4469A417-2DDD-491A-9815-231B90B6FA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{4C22C82D-CA5F-45B8-9096-5AF6DD450B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{4C22C82D-CA5F-45B8-9096-5AF6DD450B8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEB605D4-DCD5-487C-B285-6903B952F503}"
 	ProjectSection(SolutionItems) = preProject
 		git.txt = git.txt
+		git2.txt = git2.txt
 	EndProjectSection
 EndProject
 Global
