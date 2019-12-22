@@ -1,0 +1,23 @@
+﻿@page
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+<h1>
+    iframe1
+</h1>
+
+<p style="height:50px; border:1px dashed;">
+    有本事改我呀！
+</p>
+
+
+<script>
+    $(document).ready(function () {
+        var $p = $('p');
+        //$(parent.document.body).append($p);
+
+        $p.mouseover(function (event) {
+            console.log(event.clientX);
+        })
+    })
+</script>
+
+

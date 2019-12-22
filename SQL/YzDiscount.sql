@@ -1,0 +1,6 @@
+﻿CREATE FUNCTION YzDiscount(@Price INT, @Rate FLOAT)
+RETURNS FLOAT
+AS
+BEGIN
+	RETURN @Price * @Rate
+END

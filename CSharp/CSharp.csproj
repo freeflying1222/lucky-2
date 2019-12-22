@@ -3,6 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-  </PropertyGroup>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
+  </PropertyGroup>
+	<ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(Homework)</_Parameter1>
+    </AssemblyAttribute>
+</ItemGroup>
 </Project>
