@@ -17,4 +17,34 @@ reset：回到某次提交，即：从某次提交到当前的所有提交记录被删除	【谨慎使用】
 1. -- mixed  (保留更改)
 2. -- hard   (放弃更改)  【尤其要慎重】
 
+--------
+掌握
+--------
+
+为什么要使用branch？
+
+本地操作：
+1. 新建一个本地branch：hotfix	（理解：master）
+2. 在hotfix上提交
+3. 在hotfix和master之间切换 （观察消失的提交）
+4. 不同branch上提交
+5. merge和conflict resolve
+
+理解：HEAD
+
+远程操作：
+1. 推送push，会创建origin/branch		（理解：origin）
+2. 拉取pull （先pull再push：有人先于我们推送）
+
+AB仓库演示：
+
+
+--------
+了解
+--------
+
+rebase
+
+
+
 
